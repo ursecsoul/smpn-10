@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visi dan Misi SMPN 10 Malang</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="visibut.css">
+
+    <style>
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card-title i {
+    color: #28a745;
+}
+
+.timeline {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 50px auto;
+    width: 60%; 
+}
+
+/* titik-titik */
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: green;
+    left: 50%;
+    border-left: 2px dotted green;
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    position: relative;
+    margin: 100px 0;
+    margin-top: 100px;
+}
+
+
+/* bulet bulet */
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background: green;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    margin-top: 10px;
+}
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <a class="navbar-brand" href="#">SMPN 10 MALANG</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Beranda</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Profil</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Kegiatan Sekolah</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Prestasi</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Kesiswaan</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Galeri</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Visi misi -->
+<section class="container mt-5">
+    <h2 class="text-center font-weight-bold">VISI DAN MISI SMPN 10 MALANG</h2>
+
+    <!-- garis tengah -->
+    <div class="container d-flex justify-content-center">
+        <ul class="timeline">
+            <li class="timeline-item"><div></div></li>
+            <li class="timeline-item"><div></div></li>
+            <li class="timeline-item"><div></div></li>
+        </ul>
+    </div>
+    
+    <div class="row mt-4">
+        <!-- Visi -->
+        <div class="col-md-6">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-bullseye"></i> Visi</h5>
+                    <p class="card-text">"UNGGUL DALAM IMTAK DAN IPTEK, BERBUDAYA, LINGKUNGAN SEKOLAH SEHAT, AMAN, DAN NYAMAN"</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Misi -->
+        <div class="col-md-6">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-list-alt"></i> Misi</h5>
+                    <ul>
+                        <li>Membentuk siswa berkarakter yang berdasarkan IMTAK</li>
+                        <li>Meningkatkan prestasi Akademik dan Non Akademik berbasis IPTEK</li>
+                        <li>Melaksanakan pelestarian fungsi biaku mutu</li>
+                        <li>Melakukan penilaian, pembelajaran, pelatihan dan pencegahan lingkungan hidup</li>
+                        <li>Meningkatkan derajat kesehatan warga sekolah</li>
+                        <li>Menciptakan lingkungan sekolah yang aman dan nyaman</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Tujuan -->
+        <div class="col-md-6 offset-md-3">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-bullseye"></i> Tujuan</h5>
+                    <p class="card-text">Mewujudkan demokrasi dengan santun dan cerdas. Siswa berperan aktif dalam mengekspresikan aspirasi atau suara demokrasi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<style>
+    .footer {
+        background-color: #007a33; /* Adjust color if needed */
+        color: white;
+        padding: 30px;
+    }
+    .footer a {
+        color: white;
+        text-decoration: none;
+    }
+    .footer a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<div class="footer">
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 mb-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.8939014376106!2d112.64152137405338!3d-8.009877079922234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd628750e2d9315%3A0x4df3fb2d03c44106!2sSMP%20Negeri%2010%20Malang!5e0!3m2!1sid!2sid!4v1730807839472!5m2!1sid!2sid" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+        <div class="col-md-3">
+            <h5>Lokasi</h5>
+            <p>Jl. Mayjend. Sungkono 57, Kecamatan Kedungkandang, Kota Malang, Jawa Timur</p>
+        </div>
+        <div class="col-md-3">
+            <h5>Kontak</h5>
+            <p>0341-752035</p>
+            <h5>Email</h5>
+            <p>smppuluhkotamalang@gmail.com</p>
+        </div>
+        <div class="col-md-3">
+            <h5>Sosial media</h5>
+            <p>
+                <a href="#"><i class="bi bi-instagram"></i> @smpn10kotamalang</a><br>
+                <a href="#"><i class="bi bi-youtube"></i> smpn10kotamalang67</a><br>
+                <a href="#"><i class="bi bi-tiktok"></i> @smpn10_malang_kesiswaan</a>
+            </p>
+        </div>
+    </div>
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

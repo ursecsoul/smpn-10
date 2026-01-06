@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card-title i {
+    color: #28a745;
+}
+
+.timeline {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 50px auto;
+    width: 60%; /* Adjust width as needed */
+}
+
+/* Dotted line */
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: green;
+    left: 50%;
+    border-left: 2px dotted green;
+    transform: translateX(-50%);
+}
+
+/* Timeline item */
+.timeline-item {
+    position: relative;
+    margin: 40px 0;
+}
+
+/* Circle markers */
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background: green;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+/* Remove background boxes */
+.timeline-item div {
+    padding: 10px;
+    /* background-color: #f7f7f7; Remove this */
+    /* border-radius: 5px; Remove this if you want to remove corners */
+    /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); Remove this */
+}
+
+footer h6 {
+    font-weight: bold;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .container {
+    text-align: left;
+}

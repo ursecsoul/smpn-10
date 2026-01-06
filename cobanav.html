@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Highlight</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Tambahkan CSS kustom untuk navbar yang aktif */
+    .nav-item .active {
+      font-weight: bold;
+      color: #007bff; /* Warna sesuai dengan preferensi */
+      border-bottom: 2px solid #007bff; /* Tambahkan border atau efek lain */
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Brand</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link {% if request.path == '/' %} active {% endif %}" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if request.path == '/about' %} active {% endif %}" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if request.path == '/contact' %} active {% endif %}" href="/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Konten halaman di sini -->
+</body>
+</html>
