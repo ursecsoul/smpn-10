@@ -10,11 +10,11 @@ Ini adalah **website profil sekolah SMPN 10** berbasis PHP yang menampilkan info
 ---
 
 ##  Struktur Project
-/admin
-/bootstrap
-/pages
-*.php
-index.php
+- /admin
+- /bootstrap
+- /pages
+- *.php
+- index.php
 
 **Keterangan singkat:**
 - `admin/` → berisi halaman admin untuk login, CRUD konten
